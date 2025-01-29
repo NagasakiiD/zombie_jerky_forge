@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b":{
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "extra_food_items:camelpack",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thermal:invar_ingot"
+    },
+    {
+      "item": "thermal:invar_ingot"
+    }
+  ],
+  "result": {
+    "item": "extra_food_items:invarshears",
+    "count": 1
+  }
+}

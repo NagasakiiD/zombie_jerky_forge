@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "extra_food_items:wooden_helmet",
+    "count": 1
+  }
+}

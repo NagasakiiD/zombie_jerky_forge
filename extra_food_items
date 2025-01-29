@@ -1,0 +1,365 @@
+{
+  "mod_elements": [
+    {
+      "name": "ZombieJerky",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_jerky",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_food_items/models/item/zombie_jerky.json",
+          "src/main/java/net/mcreator/zombiejerkyforge/item/ZombieJerkyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Zombiejerkyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "zombiejerkyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/zombiejerkyrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Spidereyesoup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spidereyesoup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_food_items/models/item/spidereyesoup.json",
+          "src/main/java/net/mcreator/zombiejerkyforge/item/SpidereyesoupItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Spidereyesouprecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spidereyesouprecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/spidereyesouprecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Invarshears",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "invarshears",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_food_items/models/item/invarshears.json",
+          "src/main/java/net/mcreator/zombiejerkyforge/item/InvarshearsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Invarshear",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "invarshear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/invarshear.json"
+        ]
+      }
+    },
+    {
+      "name": "Wooden",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_food_items/models/item/wooden_helmet.json",
+          "src/main/resources/assets/extra_food_items/models/item/wooden_chestplate.json",
+          "src/main/resources/assets/extra_food_items/models/item/wooden_leggings.json",
+          "src/main/java/net/mcreator/zombiejerkyforge/item/WoodenItem.java",
+          "src/main/resources/assets/extra_food_items/models/item/wooden_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "woodhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/woodhelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodchest",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodchest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/woodchest.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/woodleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/woodboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Nagasakiisadditions",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nagasakiisadditions",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Pyrotheum",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrotheum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_food_items/models/item/pyrotheum_bucket.json",
+          "src/main/java/net/mcreator/zombiejerkyforge/fluid/PyrotheumFluid.java",
+          "src/main/java/net/mcreator/zombiejerkyforge/block/PyrotheumBlock.java",
+          "src/main/java/net/mcreator/zombiejerkyforge/item/PyrotheumItem.java",
+          "src/main/resources/assets/extra_food_items/blockstates/pyrotheum.json",
+          "src/main/java/net/mcreator/zombiejerkyforge/fluid/types/PyrotheumFluidType.java",
+          "src/main/resources/assets/extra_food_items/models/block/pyrotheum.json"
+        ]
+      }
+    },
+    {
+      "name": "MonsterJerky",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monster_jerky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zombiejerkyforge/item/MonsterJerkyItem.java",
+          "src/main/resources/assets/extra_food_items/models/item/monster_jerky.json"
+        ]
+      }
+    },
+    {
+      "name": "PyrotheumMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrotheum_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zombiejerkyforge/procedures/PyrotheumMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyrotheumOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrotheum_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zombiejerkyforge/procedures/PyrotheumOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stringarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stringarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_food_items/models/item/stringarmor_helmet.json",
+          "src/main/java/net/mcreator/zombiejerkyforge/item/StringarmorItem.java",
+          "src/main/resources/assets/extra_food_items/models/item/stringarmor_leggings.json",
+          "src/main/resources/assets/extra_food_items/models/item/stringarmor_chestplate.json",
+          "src/main/resources/assets/extra_food_items/models/item/stringarmor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Stringarmorr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stringarmorr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/stringarmorr.json"
+        ]
+      }
+    },
+    {
+      "name": "Stringarmorhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stringarmorhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/stringarmorhelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Stringarmorleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stringarmorleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/stringarmorleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Stringboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stringboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_food_items/recipes/stringboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Wateraddedpyro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wateraddedpyro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zombiejerkyforge/procedures/WateraddedpyroProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Pyrotheum"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.extra_food_items.wooden_boots": "Wooden Boots",
+      "item.extra_food_items.wooden_leggings": "Wooden Leggings",
+      "item.extra_food_items.invarshears": "Invar shears",
+      "item.zombie_jerky_forge.zombie_jerky": "Zombie Jerky",
+      "item.extra_food_items.wooden_helmet": "Wooden Helmet",
+      "item.extra_food_items.wooden_chestplate": "Wooden Chestplate",
+      "fluid.extra_food_items.pyrotheum": "Pyrotheum",
+      "item.extra_food_items.monster_jerky": "Monster Jerky",
+      "item.extra_food_items.stringarmor_helmet": "String Helmet",
+      "item.extra_food_items.stringarmor_leggings": "String Leggings",
+      "item.extra_food_items.spidereyesoup": "Spider eye soup",
+      "item.extra_food_items.stringarmor_chestplate": "String Chestplate",
+      "item.extra_food_items.camelpack_chestplate": "String Chestplate",
+      "item_group.extra_food_items.nagasakiisadditions": "Nagasakiisadditions",
+      "item.zombie_jerky_forge.spidereyesoup": "Spider eye soup",
+      "item.extra_food_items.stringarmor_boots": "String Boots",
+      "block.extra_food_items.pyrotheum": "Pyrotheum",
+      "item.extra_food_items.pyrotheum_bucket": "Pyrotheum Bucket",
+      "item.extra_food_items.zombie_jerky": "Zombie Jerky"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "extra_food_items",
+    "modName": "Nagasakii\u0027s Food items",
+    "version": "1.0.0",
+    "author": "Ryan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.Zombiejerkyforge.zombiejerkyforge"
+  },
+  "mcreatorVersion": 202400452410
+}
