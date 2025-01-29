@@ -41,7 +41,7 @@ public abstract class CamelpackItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "Camelpack";
+				return "camelpack";
 			}
 
 			@Override

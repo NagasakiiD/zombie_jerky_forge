@@ -28,7 +28,7 @@ public class ExtraFoodItemsModItems {
 	public static final RegistryObject<Item> STRINGARMOR_CHESTPLATE = REGISTRY.register("stringarmor_chestplate", () -> new StringarmorItem.Chestplate());
 	public static final RegistryObject<Item> STRINGARMOR_LEGGINGS = REGISTRY.register("stringarmor_leggings", () -> new StringarmorItem.Leggings());
 	public static final RegistryObject<Item> STRINGARMOR_BOOTS = REGISTRY.register("stringarmor_boots", () -> new StringarmorItem.Boots());
-	public static final RegistryObject<Item> CAMELPACK = REGISTRY.register("Camelpack", () -> new CamelpackItem.Chestplate());
+	public static final RegistryObject<Item> CAMELPACK = REGISTRY.register("camelpack", () -> new CamelpackItem.Chestplate());
 	// Start of user code block custom items
 	// End of user code block custom items
 }
