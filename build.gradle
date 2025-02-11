@@ -42,13 +42,27 @@ minecraft {
     }
 }
 
+repositories {
+    // Define your repositories
+    flatDir {
+        dirs 'libs'  // This points to the 'libs' directory where your JARs are stored
+    }
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+    implementation name: 'Survive-1.20.1-9.0.6'  // Make sure the JAR file name matches exactly without the .jar extension
+    implementation name: 'UnionLib-1.20.1-10.2.7-Forge'  // Same here
 }
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
 
-apply from: 'zjf.gradle'
+// This block defines the jar task and outputs the jar file into build/libs
+jar {
+    archiveBaseName = 'NagasakiisFoodItems' // Set the name of your JAR file
+    archiveVersion = '1.5' // Use the version specified in the build.gradle file
+}
 
+apply from: 'zjf.gradle'
