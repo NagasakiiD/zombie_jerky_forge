@@ -276,6 +276,7 @@ Writing Output: C:\Users\Ryan\MCreatorWorkspaces\zombie_jerky_forge\build\reobfJ
   data/extra_food_items/
   data/extra_food_items/recipes/
   data/extra_food_items/recipes/camelpack.json
+  data/extra_food_items/recipes/camelpackfilling.json
   data/extra_food_items/recipes/invarshear.json
   data/extra_food_items/recipes/spidereyesouprecipe.json
   data/extra_food_items/recipes/stringarmorhelmet.json

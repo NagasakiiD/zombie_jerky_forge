@@ -74,6 +74,7 @@ public abstract class CamelpackItem extends ArmorItem {
 							WaterData waterData = realisticPlayer.getWaterData();
 							if (waterData.getWaterLevel() < 40) {
 								waterData.drink(1, 1.0F, 0, false);
+								waterData.save((LivingEntity) realisticPlayer);
 							}
 						}
 					}

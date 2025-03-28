@@ -17,6 +17,6 @@
   "result": {
     "item": "extra_food_items:camelpack",
     "count": 1,
-    "nbt": "{DrinksLeft:0.1, Potion:\"survive:purified_water\"}"
+    "nbt": "{DrinksLeft:0, Potion:survive:purified_water}"
   }
 }

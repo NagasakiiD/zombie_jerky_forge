@@ -1,22 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "aaa",
-    "aba",
-    "aaa"
-  ],
-  "key": {
-    "a": {
-      "item": "minecraft:leather"
+  "ingredients": [
+    {
+      "item": "extra_food_items:camelpack",
+      "nbt": "{DrinksLeft:0, Potion:survive:purified_water}"
     },
-    "b":{
-      "item": "minecraft:glass_bottle"
+    {
+      "item": "minecraft:potion",
+      "nbt": { "Potion": "survive:purified_water" }
     }
-  },
+  ],
   "result": {
     "item": "extra_food_items:camelpack",
     "count": 1,
-    "nbt": "{DrinksLeft:0.1, Potion:survive:purified_water}"
+    "nbt": "{DrinksLeft:1, Potion:survive:purified_water}"
   }
 }

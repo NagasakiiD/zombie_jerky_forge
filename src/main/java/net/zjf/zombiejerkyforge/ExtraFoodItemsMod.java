@@ -38,31 +38,24 @@ public class ExtraFoodItemsMod {
 	public static final String MODID = "extra_food_items";
 
 	public ExtraFoodItemsMod() {
-		// Start of user code block mod constructor
-		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		ExtraFoodItemsModBlocks.REGISTRY.register(bus);
-
 		ExtraFoodItemsModItems.REGISTRY.register(bus);
-
 		ExtraFoodItemsModTabs.REGISTRY.register(bus);
-
 		ExtraFoodItemsModFluids.REGISTRY.register(bus);
 		ExtraFoodItemsModFluidTypes.REGISTRY.register(bus);
 
-		// Start of user code block mod init
-		// End of user code block mod init
 	}
 
-	// Start of user code block mod methods
-	// End of user code block mod methods
 	private static final String PROTOCOL_VERSION = "1";
-	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
+	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(
+			new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
 
-	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder, BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
+	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder,
+											 Function<FriendlyByteBuf, T> decoder, BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
 		PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
 		messageID++;
 	}
